@@ -9,10 +9,10 @@
 #     └── construction-ppe ← downloads here (178.4 MB)
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: PPE-Detection # dataset root dir
-train: dataset/images/train # train images (relative to 'path') 1132 images
-val: dataset/images/val # val images (relative to 'path') 143 images
-test: dataset/images/test # test images (relative to 'path') 141 images
+path: dataset # dataset root dir
+train: images/train # train images (relative to 'path') 1132 images
+val: images/val # val images (relative to 'path') 143 images
+test: images/test # test images (relative to 'path') 141 images
 
 # Classes
 names:
@@ -30,4 +30,3 @@ names:
 
 # Download script/URL (optional)
 download: https://github.com/ultralytics/assets/releases/download/v0.0.0/construction-ppe.zip
-
