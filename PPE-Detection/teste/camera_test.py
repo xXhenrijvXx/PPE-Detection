@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Carrega o modelo treinado
-model = YOLO(r"C:\Users\a511009\Desktop\Projeto\PPE-Detection\runs\detect\train\weights\best.pt")
+model = YOLO(r"C:\Users\henri\Desktop\Eng. Computação\7º Semestre\Sistemas Embarcados II\Repository\runs\detect\train\weights\best.pt")
 
 # Abre a webcam
 cap = cv2.VideoCapture(0)
